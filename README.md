@@ -15,4 +15,4 @@ En base a al archivo que contiene los datos de precipitación y evapotranspiraci
 ### Calculos matemáticos
 Posteriormente se realizan los calculos matemáticos correspondientes al modelo hidrológico, un total de 40 variables que son realizadas mediante la herramienta calculadora de Raster, estos calculos permite obtener la variable debit, esta ultima hace referencia a los caudales y el impacto de las inundaciones dentro de la cuenca hidrográfica delimitada.
 ### Archivo netCDF
-
+Finalmente se recopilan todas las capas debit creadas por el Script y se acopplan dentro de un mismo archivo netCDF, gracias al formato netCDF se pueden agregar todas las capas solicitadas por el usuario, y dentro de esta archivo se puede visualizar el impacto de las precipitaciones de mejor manera.
