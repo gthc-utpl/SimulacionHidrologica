@@ -2,8 +2,14 @@
 
 Los siguientes scripts forman parte del Trabajo de Integración Curricular correspondiente a la implementación computacional de un modelo hidrológico de paso continuo mediante el lenguaje de programación Python a través de la herramienta de software geográfico QGIS.
 
+![image](https://github.com/gthc-utpl/SimulacionHidrologica/assets/37159/930334e9-429f-4129-9387-c2d88642b9ca)
+
+
 ### Resumen
 Los modelos hidrológicos existentes son complicados de trabajar debido a la cantidad de datos que se deben ingresar, lo que dificulta la evaluación del terreno y los efectos de la precipitación y otras condiciones hidrológicas en el área en cuestión. Por lo tanto, se desarrolló un script en Python que se utiliza dentro de la herramienta QGIS para realizar una extracción de datos climatológicos y simular un modelo hidrológico de paso continuo. Este modelo sólo requiere datos de estaciones climatológicas y un archivo con información del terreno geográfico. Los resultados obtenidos incluyen la delimitación de cuencas hidrográficas, las coordenadas de las estaciones climatológicas, los datos de precipitación y evapotranspiración, y una interpolación basada en estos datos. Todos los resultados se almacenan en un directorio con su carpeta correspondiente.
+
+![image](https://github.com/gthc-utpl/SimulacionHidrologica/assets/37159/dd7b7e4d-c8f0-4426-a83c-c52a038dc70e)
+
 
 ### Archivos de entrada
 El modelo hidrológico requiere un directorio que contenga archivos de Excel con datos de precipitación y evapotranspiración de estaciones climatológicas. También solicita un archivo de modelo de elevación digital (DEM), que es necesario para delimitar la cuenca hidrográfica. Por último, se solicita un archivo de Excel que contenga las coordenadas geográficas de las estaciones climatológicas.
